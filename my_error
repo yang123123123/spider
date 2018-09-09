@@ -1,0 +1,5 @@
+error:
+1.requests.exceptions.SSLError: HTTPSConnectionPool(host='alpha.wallhaven.cc', port=443):
+ Max retries exceeded with url #http连接太多没有关闭导致的
+2.pymysql.err.InternalError #数据库连接问题
+3.死锁 #加锁
