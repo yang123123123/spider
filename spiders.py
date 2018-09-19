@@ -9,7 +9,7 @@ import pymysql
 
 
 # 连接数据库
-db = pymysql.connect("120.79.146.112", "wangjing", "Wwj3113776.", "wallpaper", charset="utf8")
+db = pymysql.connect("ip", "username", "password", "wallpaper", charset="utf8")
 cur = db.cursor()
 # 获取数据库里所有的tag
 sql = "select name from wall_app_tag"
